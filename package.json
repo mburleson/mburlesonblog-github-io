@@ -42,7 +42,7 @@
   },
   "scripts": {
     "dev": "node --openssl-legacy-provider ./node_modules/.bin/gatsby develop",
-    "build": "gatsby build",
+    "build": "node --openssl-legacy-provider ./node_modules/.bin/gatsby build",
     "heroku-postbuild": "node --openssl-legacy-provider ./node_modules/.bin/gatsby build",
     "serve": "gatsby serve",
     "postinstall": "node ./bin/hello.js",
